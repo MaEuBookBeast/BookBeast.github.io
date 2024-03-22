@@ -1,0 +1,245 @@
+nav{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw-1300px)/2);
+    background: url('buttonback.png') no-repeat;
+    background-size: cover;
+    height: 3rem;
+
+}
+nav a{
+    text-decoration: none;
+    margin-left: 1rem;
+    color:rgb(0, 0, 0);
+    font-weight: bolder;
+    border-radius: 10px;
+    background: url(butbut.png);
+    background-size: cover;
+    padding: 0 6rem;
+    font-size: 2rem;
+    margin: 0 5px;
+}
+
+.chelle{
+    height: 100vh;
+    background: url('sky.gif') no-repeat;
+    background-size: cover;
+}
+.chelle-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    padding: 3rem calc((100vw-1300px)/2);
+
+}
+.column-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(108, 8, 94);
+    padding: 0rem 2rem;
+    text-align: center;
+}
+.newww{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgba(81, 0, 53, 0.968);
+}
+.column-left h1 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    color: purple;
+}
+.column-left p {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.button{
+    padding: .5rem 2rem;
+    font-size: 3rem;
+    border-color: rgb(0, 0, 0);
+    color: rgb(93, 0, 255);
+    cursor: pointer;
+    font-style: normal;
+    margin-bottom: 6rem;
+    margin-right: 1.8rem;
+    border-style: solid;
+    border-radius:20px;
+    text-decoration: none;
+    background: url(buttonback.png);
+}
+.baaacckkk{
+    padding: 0rem 4rem;
+    font-size: 3rem;
+    border-color: rgba(73, 73, 73, 0.685);
+    color: rgb(255, 0, 144);
+    cursor: pointer;
+    font-style: normal;
+    margin-left: 38rem;
+    border-style: solid;
+    border-radius:20px;
+    text-decoration: none;
+    background: url(violet.gif);
+    background-size: cover;
+}
+
+
+/*SEcond*/
+.nizsss{
+    height: 78vh;
+    background: url('sky.gif') no-repeat;
+    background-size: cover;
+}
+.column-down {
+    margin-bottom: 9rem;
+    color: rgb(108, 8, 94);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.column-down h1{
+    font-size: 3rem;
+    color: purple;
+   
+}
+.pindotpindot{
+    font-size: 3rem;
+    cursor: pointer;
+    padding: 0 2rem;
+    color: rgb(39, 39, 39);
+    margin-left: 2.5rem;
+    margin-right: 1rem;
+    margin-top: 3rem;
+    background: url(violet.gif);
+    text-decoration: none;
+    background-size: cover;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgba(73, 73, 73, 0.685);
+}
+.buttoon{
+    padding: 0rem 4rem;
+    font-size: 3rem;
+    border-color: rgba(73, 73, 73, 0.685);
+    color: rgb(255, 0, 144);
+    cursor: pointer;
+    font-style: normal;
+    margin-bottom: 2rem;
+    margin-right: 1.8rem;
+    border-style: solid;
+    border-radius:20px;
+    text-decoration: none;
+    background: url(violet.gif);
+    background-size: cover;
+}
+.foot{
+    background: url('bbbg.jpg') no-repeat;
+    background-size: cover;
+    height: 7rem;
+    display: flex;
+}
+
+
+/*about*/
+.mixx{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgba(81, 0, 53, 0.968);
+    margin-bottom: 1rem;
+}
+.bacckkk{
+    padding: 0rem 4rem;
+    font-size: 3rem;
+    border-color: rgba(73, 73, 73, 0.685);
+    color: rgb(255, 0, 144);
+    cursor: pointer;
+    font-style: normal;
+    margin-bottom: 10rem;
+    margin-left: 1.8rem;
+    border-style: solid;
+    border-radius:20px;
+    text-decoration: none;
+    background: url(violet.gif);
+    background-size: cover;
+}
+
+/*contact*/
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}   
+
+#contact{
+    min-height: 50vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: blueviolet;
+    font-size: 1rem;
+}
+#contact p{
+    color: rgba(81, 0, 53, 0.968);
+    font-size: 1.5rem;
+}
+#contact h1{
+    color: purple;
+    font-size: 3rem;
+}
+
+
+#background{
+    background: url(purple2.gif) no-repeat;
+    background-size: cover;
+    padding: 1rem;
+}
+
+
+ #started {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0px;
+    background: url(purple2.gif) no-repeat;
+    background-size: cover;
+}   
+#started #book, #contact #book {
+    width: 300px;
+    text-align: center;
+    background: url(purple.gif) no-repeat;
+    background-size: cover;
+    padding: 30px;
+}
+/*.nizs{
+    height: 70vh;
+    background: url('sky.gif') no-repeat;
+    background-size: cover;
+}
+#about{
+    min-height: 50vh;
+    text-align: center;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-size: 1.5rem;
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+*/
